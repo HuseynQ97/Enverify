@@ -20,7 +20,7 @@
 
     spec.dependency 'Starscream'
     spec.dependency 'GoogleWebRTC'
-    spec.dependency 'Socket.IO-Client-Swift', '14.0.0'
+    spec.dependency 'Socket.IO-Client-Swift'
     spec.dependency 'Alamofire', '5.9.1'
     spec.dependency 'GoogleMLKit/TextRecognition'
     spec.dependency 'GoogleMLKit/FaceDetection'
