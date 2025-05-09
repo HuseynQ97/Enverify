@@ -18,7 +18,7 @@
 'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '-ObjC -lc++ -framework EnQualify -framework FBLPromises -framework Alamofire -framework GTMSessionFetcher -framework GoogleAppMeasurement -framework GoogleAppMeasurementIdentitySupport -framework GoogleDataTransport -framework GoogleToolboxForMac -framework GoogleUtilities -framework GoogleUtilitiesComponents -framework SocketIO'
 }
 
-    spec.dependency 'Starscream'
+    spec.dependency 'Starscream', '>= 4.0.8'
     spec.dependency 'GoogleWebRTC'
     spec.dependency 'Socket.IO-Client-Swift', '14.0.0'
     spec.dependency 'Alamofire', '5.9.1'
