@@ -1,6 +1,6 @@
    Pod::Spec.new do |spec|
     spec.name         = "EnVerify"
-    spec.version      = "1.3.18.1-s"
+    spec.version      = "1.3.18.1"
     spec.summary      = "EnVerify."
     spec.authors      = { "Enqura" => "http://www.enqura.com" }
     spec.homepage     = "http://www.enqura.com"
@@ -18,7 +18,7 @@
 'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '-ObjC -lc++ -framework EnQualify -framework FBLPromises -framework Alamofire -framework GTMSessionFetcher -framework GoogleAppMeasurement -framework GoogleAppMeasurementIdentitySupport -framework GoogleDataTransport -framework GoogleToolboxForMac -framework GoogleUtilities -framework GoogleUtilitiesComponents -framework SocketIO'
 }
 
-    spec.dependency 'Starscream', '>= 4.0.8'
+    spec.dependency 'Starscream'
     spec.dependency 'GoogleWebRTC'
     spec.dependency 'Socket.IO-Client-Swift', '14.0.0'
     spec.dependency 'Alamofire', '5.9.1'
