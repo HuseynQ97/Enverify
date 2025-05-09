@@ -18,13 +18,13 @@
 'OTHER_LDFLAGS[sdk=iphonesimulator*]' => '-ObjC -lc++ -framework EnQualify -framework FBLPromises -framework Alamofire -framework GTMSessionFetcher -framework GoogleAppMeasurement -framework GoogleAppMeasurementIdentitySupport -framework GoogleDataTransport -framework GoogleToolboxForMac -framework GoogleUtilities -framework GoogleUtilitiesComponents -framework SocketIO'
 }
 
-    spec.dependency 'Starscream', '~> 3.0.0'
+    spec.dependency 'Starscream'
     spec.dependency 'GoogleWebRTC'
     spec.dependency 'Socket.IO-Client-Swift', '14.0.0'
     spec.dependency 'Alamofire', '5.9.1'
-    spec.dependency 'GoogleMLKit/TextRecognition', '4.0.0'
-    spec.dependency 'GoogleMLKit/FaceDetection', '4.0.0'
-    spec.dependency 'GoogleMLKit/BarcodeScanning', '4.0.0'
+    spec.dependency 'GoogleMLKit/TextRecognition'
+    spec.dependency 'GoogleMLKit/FaceDetection'
+    spec.dependency 'GoogleMLKit/BarcodeScanning'
     spec.dependency 'OpenSSL-Universal', '3.3.2000'
     spec.dependency 'TensorFlowLiteSwift', '~> 2.12.0'
   end
